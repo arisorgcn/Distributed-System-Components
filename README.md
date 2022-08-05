@@ -10,5 +10,5 @@
 
 一个更易于构建云原生应用的动态服务发现、配置管理和服务管理平台。
 
-- [使用Docker Compose部署Nacos集群](./01-Registry-and-ConfigCenter/01-Nacos/01-Nacos集群部署)
+- [使用Docker Compose部署Nacos集群](./01-Registry-and-ConfigCenter/01-Nacos/01-Nacos集群部署.md)
 

@@ -9,7 +9,7 @@ Knowledge of distributed components
 
 an easy-to-use dynamic service discovery, configuration and service management platform for building cloud native applications
 
-- [Nacos Cluster Deploy With Docker Compose](./01-Registry-and-ConfigCenter/01-Nacos/01-Nacos集群部署)
+- [Nacos Cluster Deploy With Docker Compose](./01-Registry-and-ConfigCenter/01-Nacos/01-Nacos集群部署.md)
 
 
 
