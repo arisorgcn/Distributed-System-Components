@@ -269,7 +269,7 @@ org.springframework.jdbc.BadSqlGrammarException: PreparedStatementCallback; bad 
 
 **S3：找到对应nacos版本的sql语句**
 
-<img src="assets/image-20220806064113712.png" alt="image-20220805204940554" style="zoom:80%;" align="left"/>
+<img src="assets/image-20220806064113712.png" alt="image-20220805204940554" style="zoom:80%;"/>
 
 [nacos-mysql文件在github上的地址](https://github.com/alibaba/nacos/blob/2.1.0/distribution/conf/nacos-mysql.sql)
 
