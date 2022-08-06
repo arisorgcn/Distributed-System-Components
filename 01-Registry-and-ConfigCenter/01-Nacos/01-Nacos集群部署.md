@@ -4,13 +4,13 @@
 
 ```bash
 # cd /home/ws/docker
-# mkdir -p nacos-docker
-# cd nacos-docker
+# mkdir -p nacos-cluster
 ```
 
 **S2：克隆nacos-docker项目**
 
 ```bash
+# cd nacos-cluster
 # git clone --depth 1 https://github.com/nacos-group/nacos-docker.git
 ```
 
