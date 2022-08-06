@@ -102,7 +102,7 @@ services:
     restart: always
     networks:
       nacos-net:
-        ipv4_address: 172.18.33.5
+        ipv4_address: ${NACOS_MYSQL_CONTAINER_IP}
     extra_hosts:
       - nacos1:$NACOS_NODE1_CONTAINER_IP
       - nacos2:$NACOS_NODE2_CONTAINER_IP
@@ -121,7 +121,7 @@ services:
     restart: on-failure
     networks:
       nacos-net:
-        ipv4_address: 172.18.33.2
+        ipv4_address: ${NACOS_NODE1_CONTAINER_IP}
     volumes:
       - ./cluster-logs/nacos1:/home/nacos/logs
     ports:
@@ -144,7 +144,7 @@ services:
     restart: always
     networks:
       nacos-net:
-        ipv4_address: 172.18.33.3
+        ipv4_address: ${NACOS_NODE2_CONTAINER_IP}
     volumes:
       - ./cluster-logs/nacos2:/home/nacos/logs
     ports:
@@ -166,7 +166,7 @@ services:
     restart: always
     networks:
       nacos-net:
-        ipv4_address: 172.18.33.4
+        ipv4_address: ${NACOS_NODE3_CONTAINER_IP}
     volumes:
       - ./cluster-logs/nacos2:/home/nacos/logs
     ports:
