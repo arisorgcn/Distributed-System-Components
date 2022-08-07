@@ -208,10 +208,18 @@ networks:
 docker-compose --env-file ./.env -f ./example/cluster-ip.yaml $1 $2
 ```
 
-**S8：启动集群**
+**S8：启动或停止集群**
+
+启动集群
 
 ```bash
 # ./operation.sh up -d
+```
+
+停止集群
+
+```bash
+# ./operation.sh down
 ```
 
 **S9：查看集群状态**
