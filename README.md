@@ -12,3 +12,8 @@
 
 - [使用Docker Compose部署Nacos集群](./01-Registry-and-ConfigCenter/01-Nacos/01-Nacos集群部署.md)
 
+#### 2. ZooKeeper
+
+一个分布式协同服务，可以用来维护配置信息、命名信息，提供分布式同步机制和分组服务
+
+- [使用Docker Compose部署ZooKeeper集群](./01-Registry-and-ConfigCenter/02-ZooKeeper/01-ZooKeeper集群部署.md)
